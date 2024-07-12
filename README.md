@@ -1,5 +1,5 @@
-# UAS Praktikum PCD - D
-## Teori 
+# UAS Praktikum PCD - D ( Deteksi Daun)
+## A. Teori 
 
 Pengolahan citra digital melibatkan berbagai teknik untuk mengolah dan menganalisis gambar digital. Di antara teknik yang penting adalah deteksi garis, deteksi tepi, masking(mask), dan segmentasi. Berikut adalah penjelasan  untuk masing-masing teknik tersebut:
 
