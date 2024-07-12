@@ -5,20 +5,18 @@ Pengolahan citra digital melibatkan berbagai teknik untuk mengolah dan menganali
 
 1. Deteksi Garis (Line Detection):
 Deteksi garis adalah proses untuk menemukan garis-garis yang terdapat dalam citra. Beberapa metode yang umum digunakan termasuk transformasi Hough dan metode berbasis gradient seperti metode Sobel.
-- Metode sobel ini menggunakan operasi konvolusi dengan kernel Sobel, yang merupakan matriks 3×3 untuk menyoroti perubahan tajam dalam intensitas piksel.
+    - Metode sobel ini menggunakan operasi konvolusi dengan kernel Sobel, yang merupakan matriks 3×3 untuk menyoroti perubahan tajam dalam intensitas piksel.
 
 2. Deteksi Tepi (Edge Detection):
 Deteksi tepi adalah proses untuk menemukan batas-batas antara objek yang berbeda atau perubahan tajam dalam intensitas citra. Teknik ini penting dalam segmentasi dan analisis citra. Metode yang umum digunakan termasuk metode Sobel, Canny, dan Prewitt.
 
-- Metode Prewitt: Seperti Sobel, metode Prewitt juga menggunakan operasi konvolusi dengan kernel Prewitt, yang membantu mengekstraksi tepi dalam citra.
+    - Metode Prewitt: Seperti Sobel, metode Prewitt juga menggunakan operasi konvolusi dengan kernel Prewitt, yang membantu mengekstraksi tepi dalam citra.
 
-- Metode Canny: Ini merupakan salah satu pendekatan deteksi tepi yang paling populer dan efektif. Prosesnya meliputi beberapa langkah, seperti filter Gaussian untuk menghaluskan citra, deteksi gradien untuk menemukan kekuatan dan arah perubahan intensitas, non-maximum suppression untuk menghilangkan piksel yang bukan tepi, dan histeresis untuk menentukan piksel tepi akhir.
+    - Metode Canny: Ini merupakan salah satu pendekatan deteksi tepi yang paling populer dan efektif. Prosesnya meliputi beberapa langkah, seperti filter Gaussian untuk menghaluskan citra, deteksi gradien untuk menemukan kekuatan dan arah perubahan intensitas, non-maximum suppression untuk menghilangkan piksel yang bukan tepi, dan histeresis untuk menentukan piksel tepi akhir.
 
-3. Masking(mask)
-Masking melibatkan penggunaan maska untuk membatasi atau memfokuskan proses pengolahan pada area tertentu dari citra. Hal ini sering digunakan untuk menghilangkan bagian-bagian yang tidak diinginkan atau untuk mempertahankan area tertentu dari gambar.
+3. Masking(mask): Masking melibatkan penggunaan maska untuk membatasi atau memfokuskan proses pengolahan pada area tertentu dari citra. Hal ini sering digunakan untuk menghilangkan bagian-bagian yang tidak diinginkan atau untuk mempertahankan area tertentu dari gambar.
 
-4. Segmentasi
-Segmentasi adalah proses membagi citra menjadi beberapa bagian atau segmen yang lebih kecil. Tujuan segmentasi adalah untuk mempermudah analisis lanjutan dengan memisahkan objek dari latar belakang atau untuk mengidentifikasi fitur-fitur penting dalam citra.
+4. Segmentasi: Segmentasi adalah proses membagi citra menjadi beberapa bagian atau segmen yang lebih kecil. Tujuan segmentasi adalah untuk mempermudah analisis lanjutan dengan memisahkan objek dari latar belakang atau untuk mengidentifikasi fitur-fitur penting dalam citra.
 
 
 ## B. Tahapan Penyelesaian Project Deteksi Daun
