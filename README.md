@@ -1,5 +1,3 @@
-# PA-PC_202231078_EVAN-EBEN-HAEZER-PURBA_D
-
 # UAS Praktikum PCD - D
 ## Teori 
 
